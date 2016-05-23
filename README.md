@@ -9,6 +9,8 @@ Usage when using the Python version is:
 
 `python HeaderFinder.py [file1] [file2] etc.`
 
+Using multiple files is optional.
+
 ## Results
 
 This program shows the results per file in a separate textfile. It contains the hexadecimal value of the signature, the binary value of the signature and the location of the signature in the raw data.
@@ -18,4 +20,4 @@ For now you can scan the file signature in a file signature database to check wh
 
 Currently, the database is a TXT-file containing hexadecimal values. To add a value, simply add a new line:
 
-`[Hexadecimal file signature]`
+`[Hexadecimal file signature without brackets]`
