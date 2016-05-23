@@ -9,7 +9,7 @@ Usage when using the Python version is:
 
 `python HeaderFinder.py [file1] [file2] etc.`
 
-Using multiple files is optional.
+Using multiple files is optional. This application only runs in python environments able to process `if __name__ == '__main__':`.
 
 ## Results
 
